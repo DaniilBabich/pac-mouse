@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    height: 100vh;
+    background: black;
+}
+
+.title {
+    justify-self: center;
+    align-self: center;
+    font: bold 100px Georgia;
+    color: white;
+}
+
+.start {
+    display: grid;
+    justify-self: center;
+    justify-content: center;
+    align-content: center;
+    width: 200px;
+    height: 50px;
+    background-color: white;
+    border-radius: 3px;
+    font: bold 20px Arial;
+    cursor: pointer;
+}
+
+.gameWrapper {
+    position: relative;
+    display: none;
+    justify-self: center;
+    align-self: center;
+    border: 5px solid white;
+}
+
+.score {
+    position: absolute;
+    left: 600px;
+    font: bold 30px Georgia;
+    color: white;
+}
+
+.countdown {
+    position: absolute;
+    top: 265px;
+    left: 277px;
+    font: bold 30px Georgia;
+    color: gold;
+}
+
+.message {
+    justify-self: center;
+    align-self: center;
+    font: bold 80px Arial;
+    color: white;
+}
+
+.finalScore {
+    justify-self: center;
+    font: bold 40px Georgia;
+    color: white;
+}
